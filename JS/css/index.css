@@ -1,0 +1,83 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#title {
+    margin-bottom: 50px;
+}
+
+.text-content {
+    text-align: center;
+    font-size: 40px;
+}
+
+#search {
+    display: flex;
+    width: 70%;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+.label {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.input-search {
+    width: 40%;
+    outline: none;
+    height: 30px;
+    margin-left: 20px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+#container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container-restaurant {
+    display: flex;
+    width: 70%;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.name-restaurant,
+.street-restaurant,
+.category-restaurant {
+    width: 100%;
+    font-size: 20px;
+}
+
+.name-restaurant {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.street-restaurant {
+    font-weight: 300;
+}
+
+.category-restaurant {
+    font-size: 16px;
+    font-weight: 300;
+    color: #9d9999;
+}
+
+.remove {
+    display: none;
+}
