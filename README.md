@@ -1,2 +1,2 @@
-# SPI
-This repository was create for SPI classes. 
+# FUNDAMENTOS DE INTERNET
+This repository was create for FI classes. 
